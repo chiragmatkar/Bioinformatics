@@ -28,14 +28,11 @@
 from Bio import SeqIO
 
 
-
-
 def miRNA():
 	dict={}
 	for seq_record in SeqIO.parse('mature.fa','fasta'):
 		dict[seq_record.id]=seq_record.seq
 	return dict
-
 
 def organism_miRNA(name,mirna={}):
 	dict={}
@@ -43,7 +40,6 @@ def organism_miRNA(name,mirna={}):
 		if name in key: 
 			dict[key]=value
 	return dict
-
 
 
 #Whole miRNA dict
