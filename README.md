@@ -4,4 +4,4 @@
 can be used for finding sequence similarity,annotations etc
 
 
-**<h5>modmake</h5>**- A complete Automation for homology modelling software Modeller, with create required files,sequence alignments,getting PDB structures,model validation etc
+**<h5>modmake</h5>**- A complete Automation for homology modelling software Modeller, with creating required input files,sequence alignments,getting PDB structures,model creation,model validation etc
